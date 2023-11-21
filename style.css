@@ -1,0 +1,100 @@
+*{ 
+padding: 0; 
+margin: 0; 
+border: 0; 
+text-decoration: none; 
+} 
+
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+
+nav,footer,header,aside{display: block;} 
+
+:root{ 
+--boss: rgb(160, 160, 160); 
+--colors: rgb(210, 198, 198); 
+}  
+
+input,button,textarea{font-family:inherit;} 
+
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;} 
+img{vertical-align: top;} 
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+
+html{ 
+scroll-behavior: smooth; 
+}
+body {
+    background: linear-gradient(70deg, rgb(24, 6, 113), rgb(193, 85, 23));
+}
+.bgi {
+    background-image: url(./img/882552_623768627674563_1467396299_o.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+}
+.card {
+    width: 1000px;
+    border: 3px solid #1b1a1a;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 auto;
+    backdrop-filter: blur(50px);
+    margin-top: 80px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.card1 {
+    width: 1000px;
+    border: 3px solid #1b1a1a;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 auto;
+    backdrop-filter: blur(50px);
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.card__img {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 15px black;
+}
+.card__block2 {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card__h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px #000;
+}
+.card__p {
+    color: white;
+    text-shadow: 0 0 20px #000;
+    margin-top: 10px;
+}
+.bgilegodc {
+    background-image: url(./img/bf7135f046118f5d91f7e42a4fe89d63.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+}
+.btn {
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    background: #000000;
+}
